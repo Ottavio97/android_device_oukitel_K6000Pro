@@ -215,11 +215,11 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.mt6735
+    power.mt6753
 
 # liblights
 PRODUCT_PACKAGES += \
-    lights.mt6735
+    lights.mt6753
 
 # sensors
 PRODUCT_PACKAGES += \
@@ -227,11 +227,11 @@ PRODUCT_PACKAGES += \
 
 # memtrack
 PRODUCT_PACKAGES += \
-    memtrack.mt6735
+    memtrack.mt6753
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.mt6735 \
+    gps.mt6753 \
     libepos \
     mnld \
     libmnl \
@@ -247,7 +247,7 @@ PRODUCT_PACKAGES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    radio.fm.mt6735 \
+    radio.fm.mt6753 \
     FMRadio \
     libfmjni \
     libfmcust
