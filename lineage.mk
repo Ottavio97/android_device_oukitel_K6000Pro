@@ -21,6 +21,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# Inherit GAPPS
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
