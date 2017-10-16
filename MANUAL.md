@@ -54,7 +54,7 @@ cd ~/AOSP
 #### Download device tree:
 ```
 git clone https://github.com/Ottavio97/android_device_oukitel_K6000Pro.git device/oukitel/K6000Pro
-git clone https://github.com/mosya234/android_vendor_oukitel_K6000Pro.git vendor/oukitel/K6000Pro
+git clone https://github.com/Ottavio97/android_vendor_oukitel_K6000Pro.git vendor/oukitel/K6000Pro
 ```
 
 ### Build (finally)
