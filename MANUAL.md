@@ -39,6 +39,10 @@ repo init -u (GitHub link to the preferred source manifest) -b (Branch to build)
 ```
 repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat --depth=1 --groups=all,-notdefault,-device,-mips,-x86,-darwin,-exynos5
 ```
+#### Install local manifest for fix
+```
+curl --create-dirs -L -o .repo/local_manifests/manifest_k6000pro.xml -O -L https://raw.githubusercontent.com/Ottavio97/android_manifest_oukitel_K6000Pro/master/manifest_k6000pro.xml
+```
 #### After Initialization, Sync (it may require some hours to download everything:
 ```
 repo sync -c -f --force-sync --no-clone-bundle
