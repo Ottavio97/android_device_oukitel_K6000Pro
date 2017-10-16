@@ -49,16 +49,9 @@ repo sync -c -f --force-sync --no-clone-bundle
 ``` 
 ## Building Source
 
-### Download Device Tree
-
 #### Move to Repo folder (in our case, AOSP):
 ```
 cd ~/AOSP
-```
-#### Download device tree:
-```
-git clone https://github.com/Ottavio97/android_device_oukitel_K6000Pro.git device/oukitel/K6000Pro
-git clone https://github.com/Ottavio97/android_vendor_oukitel_K6000Pro.git vendor/oukitel/K6000Pro
 ```
 
 ### Build (finally)
